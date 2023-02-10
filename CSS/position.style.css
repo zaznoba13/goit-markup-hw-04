@@ -22,26 +22,28 @@
   justify-content: center;
   padding-top: 10px;
 }
-.thumb :not(:last-child) {
-  margin-right: 30px;
-}
+
 .thumb {
   position: relative;
-  margin: 10px;
-  border-radius: 4px;
+  border: 10px solid green;
+  border-radius: 50px;
+
   overflow: hidden;
-  background-color: #fff;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
+.thumb:not(:last-child) {
+  margin-right: 20px;
+}
+
 .label {
   position: absolute;
-  bottom: 0px;
-  right: 40px;
+  top: 2px;
+  right: 12px;
   margin-top: 0px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   font-family: sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   background-color: aquamarine;
   color: black;
+  border: 1px;
+  border-radius: 30px;
 }
